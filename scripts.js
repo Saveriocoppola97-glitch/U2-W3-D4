@@ -65,6 +65,8 @@ div.classList.add(
   "p-2",
   "px-5",
 );
+
+// HEADER
 h.appendChild(div);
 const h3 = document.createElement("h3");
 h3.innerText = "Album";
@@ -73,6 +75,8 @@ const a = document.createElement("a");
 a.innerHTML = `<i class="fas fa-bars"></i>`;
 a.classList.add("fs-1", "text-light");
 div.appendChild(a);
+
+//BUTTON
 const button1 = document.querySelector(".btn-primary");
 button1.addEventListener("click", function (e) {
   e.preventDefault();
